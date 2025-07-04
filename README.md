@@ -1,60 +1,53 @@
 # 🎰 Java Slot Machine Game
 
-A console-based Slot Machine game built in Java. This project simulates a real slot machine with fun emoji-based symbols, betting logic, and payout rules. Designed for learning core programming concepts such as control flow, arrays, methods, and random number generation.
+A simple console-based Slot Machine game written in Java. Spin the reels, place your bets, and see if luck is on your side — all with a fun emoji twist!
 
 ---
 
-## 🛠️ Features
+## 🔹 Features
 
 - 💰 Starting balance: LKR 1000
-- 🎲 Randomly generated slot spins with emojis: `🍉`, `🍒`, `🔔`, `🍋`, `⭐`
-- 🎯 Bet placement and validation
-- 🧠 Payout logic based on symbol matches:
-  - Triple matches (e.g., `🍉 | 🍉 | 🍉`) yield high rewards
-  - Double matches (first two or last two) yield medium rewards
-- 🔁 Replay option after each round
-- 🧮 Balance tracking after each spin
+- 🎰 Randomly spinning slot symbols: `🍉`, `🍒`, `🔔`, `🍋`, `⭐`
+- 💸 Betting system with input validation
+- 🎯 Payout system for double and triple symbol matches
+- 🔁 Option to play multiple rounds
+- 🧮 Real-time balance tracking
 
 ---
 
-## 📸 Sample Output
+## 💻 How to Run
 
-Welcome to the Java Slot Machine
-
-Symbols: 🍉 🍒 🔔 🍋 ⭐
-Current balance: LKR 1000
-Enter your bet: LKR 200
-Spinning...
-
-🍒 | 🍒 | 🍒
-
-🎉 You Won LKR 600!
-Do you want to play again? (Y/N):
-
-
----
-
-## 🚀 How to Run
-
-### Prerequisites:
-- Java JDK 8 or above installed
-- IDE or terminal that supports Java
-
-### Steps:
-1. Clone the repository:
+1. **Clone the repository**
    
-   git clone https://github.com/yourusername/SlotMachineGame.git
+   git clone https://github.com/DulanDhanush/SlotMachine.git
+
+2. Navigate to the directory
+
+   cd SlotMachine
    
-3. Navigate to the project folder and compile:   
+3.Compile and run the Java program
 
-  javac SlotMachine.java
+javac SlotMachine.java
+java SlotMachine
 
-4. Run the game:
 
-   java SlotMachine
+🧠 What I Learned
+
+# User input handling using Scanner
+# Random number generation using Random
+# Java control flow: if, else, switch
+# Array handling and method decomposition
+# Designing game logic and betting rules
+
+
+🚀 Future Enhancements
+
+# GUI version using JavaFX or Swing
+# Sound effects and animations
+# High score tracking
+# Save game progress to file
 
 👨‍💻 Author
-
 Dulan Dhanush Kandeepan
 Aspiring Software Engineer | Tech Enthusiast
 
@@ -62,4 +55,10 @@ Aspiring Software Engineer | Tech Enthusiast
 https://www.linkedin.com/in/dulan-dhanush-b76a44300
 
 📄 License
-This project is open-source and free to use under the MIT License.
+This project is licensed under the MIT License.
+
+
+
+
+
+   
